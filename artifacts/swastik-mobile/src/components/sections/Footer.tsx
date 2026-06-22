@@ -107,6 +107,9 @@ export default function Footer() {
           <p className="text-[11px] sm:text-xs" style={{ color: "rgba(245,245,247,0.2)" }}>
             Shahjahanpur, Uttar Pradesh, India
           </p>
+          <p className="text-[11px] sm:text-xs" style={{ color: "rgba(245,245,247,0.18)" }}>
+            Made by Aditya ⚡
+          </p>
         </div>
       </div>
     </footer>
