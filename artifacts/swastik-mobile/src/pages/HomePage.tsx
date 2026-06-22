@@ -10,6 +10,7 @@ import BeforeAfter from "@/components/sections/BeforeAfter";
 import Testimonials from "@/components/sections/Testimonials";
 import Gallery from "@/components/sections/Gallery";
 import FAQ from "@/components/sections/FAQ";
+import BookingForm from "@/components/sections/BookingForm";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 import MouseGlow from "@/components/shared/MouseGlow";
@@ -34,6 +35,7 @@ export default function HomePage() {
         <Testimonials />
         <Gallery />
         <FAQ />
+        <BookingForm />
         <Contact />
       </main>
 
