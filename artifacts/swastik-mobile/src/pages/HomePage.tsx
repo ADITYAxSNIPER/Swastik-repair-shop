@@ -6,7 +6,6 @@ import Services from "@/components/sections/Services";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Brands from "@/components/sections/Brands";
 import RepairProcess from "@/components/sections/RepairProcess";
-import BeforeAfter from "@/components/sections/BeforeAfter";
 import Testimonials from "@/components/sections/Testimonials";
 import Gallery from "@/components/sections/Gallery";
 import FAQ from "@/components/sections/FAQ";
@@ -31,7 +30,6 @@ export default function HomePage() {
         <WhyChooseUs />
         <Brands />
         <RepairProcess />
-        <BeforeAfter />
         <Testimonials />
         <Gallery />
         <FAQ />

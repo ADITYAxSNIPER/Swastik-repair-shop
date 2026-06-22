@@ -55,20 +55,6 @@ export default function WhyChooseUs() {
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="inline-flex items-center gap-3 mt-10 rounded-2xl px-5 py-4 w-full sm:w-auto"
-          style={{ background: "rgba(0,113,227,0.07)", border: "1px solid rgba(0,113,227,0.18)" }}
-        >
-          <ShieldCheck style={{ color: "var(--brand-cyan)", width: 22, height: 22, flexShrink: 0 }} />
-          <div>
-            <div className="font-bold text-sm sm:text-base" style={{ color: "var(--apple-text-dark)" }}>30-Day Warranty on all repairs</div>
-            <div className="text-xs sm:text-sm" style={{ color: "var(--apple-text-mid)" }}>Screen, battery &amp; charging port replacements</div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

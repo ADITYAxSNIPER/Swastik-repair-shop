@@ -6,7 +6,7 @@ const faqs = [
   { q: "How long does a screen replacement take?", a: "Most screen replacements take 30–60 minutes. We test every function before handing your device back." },
   { q: "Do you use genuine parts?", a: "Yes — we use only high-quality genuine or OEM parts for all repairs, ensuring longevity and perfect function." },
   { q: "What brands do you repair?", a: "Apple, Samsung, Xiaomi, Vivo, Oppo, Realme, OnePlus, Motorola, Poco, Infinix, and virtually all other brands." },
-  { q: "Is there a warranty on repairs?", a: "Yes — 30-day warranty on all screen and battery replacements against manufacturing defects." },
+  { q: "Are your repairs reliable?", a: "Absolutely. We use only high-quality OEM parts and every repair is fully tested before we hand your device back." },
   { q: "Is my data safe?", a: "Absolutely. We never access personal data. You can set a temporary password or guest mode during repair." },
   { q: "Can I get a quote before visiting?", a: "Yes! Call or WhatsApp us with your phone model and issue for a free, no-obligation estimate." },
 ];

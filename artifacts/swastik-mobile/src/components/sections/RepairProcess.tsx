@@ -6,7 +6,7 @@ const steps = [
   { n: "02", icon: FileText,     title: "Transparent Quote",  desc: "Firm price and time estimate before any work begins.", accent: "var(--brand-violet)" },
   { n: "03", icon: PenTool,      title: "Precision Repair",   desc: "Certified technicians using only OEM-grade parts.", accent: "var(--brand-mint)" },
   { n: "04", icon: CheckCircle,  title: "Quality Check",      desc: "Every function tested post-repair before return.", accent: "var(--brand-cyan)" },
-  { n: "05", icon: Smartphone,   title: "Pickup Ready",       desc: "Cleaned, repaired, backed by a 30-day warranty.", accent: "var(--brand-violet)" },
+  { n: "05", icon: Smartphone,   title: "Pickup Ready",       desc: "Cleaned, tested, and ready to go.", accent: "var(--brand-violet)" },
 ];
 
 export default function RepairProcess() {

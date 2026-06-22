@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const chips = ["Screen Repair", "Battery", "Water Damage", "Motherboard", "30-Day Warranty"];
+const chips = ["Screen Repair", "Battery", "Water Damage", "Motherboard", "Expert Technicians"];
 
 export default function Hero() {
   return (
@@ -41,7 +41,7 @@ export default function Hero() {
           className="mt-5 sm:mt-6"
           style={{ color: "rgba(245,245,247,0.6)", fontSize: "clamp(16px, 2.2vw, 20px)", maxWidth: 540, lineHeight: 1.6 }}
         >
-          From cracked screens to motherboard surgery — genuine parts, surgical precision, and a 30-day warranty.
+          From cracked screens to motherboard surgery — genuine parts, surgical precision, and certified expert technicians.
         </motion.p>
 
         <motion.div

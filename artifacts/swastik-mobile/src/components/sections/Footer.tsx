@@ -39,7 +39,7 @@ export default function Footer() {
               Repairing Shop
             </div>
             <p className="text-xs sm:text-sm leading-relaxed mb-5 sm:mb-6" style={{ color: "rgba(245,245,247,0.4)" }}>
-              Shahjahanpur's most trusted mobile repair shop. Genuine parts, fast service, 30-day warranty.
+              Shahjahanpur's most trusted mobile repair shop. Genuine parts, fast service, expert technicians.
             </p>
             <div className="flex gap-2 sm:gap-3">
               <a href="https://wa.me/919565444414" target="_blank" rel="noopener noreferrer"
