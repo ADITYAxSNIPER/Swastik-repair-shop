@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Swastik Mobile Repairing Center"
+version = "1.0.0"
+id = "artifacts/swastik-mobile"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24668
+
+[services.development]
+run = "pnpm --filter @workspace/swastik-mobile run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/swastik-mobile", "run", "build" ]
+publicDir = "artifacts/swastik-mobile/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24668"
+BASE_PATH = "/"
